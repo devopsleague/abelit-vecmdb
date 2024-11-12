@@ -6,7 +6,6 @@ help:  ## display this help
 .PHONY: help
 
 env: ## create a development environment using pipenv
-	sudo easy_install pip && \
 	pip install pipenv -i https://repo.huaweicloud.com/repository/pypi/simple && \
 	npm install yarn && \
 	make deps

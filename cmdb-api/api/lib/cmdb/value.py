@@ -3,7 +3,7 @@
 
 from __future__ import unicode_literals
 
-import imp
+import importlib as imp
 
 import copy
 import jinja2

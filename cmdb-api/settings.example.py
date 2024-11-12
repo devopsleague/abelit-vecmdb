@@ -39,7 +39,7 @@ SQLALCHEMY_ENGINE_OPTIONS = {
 
 # # cache
 CACHE_TYPE = 'redis'
-CACHE_REDIS_HOST = env.str('CACHE_REDIS_HOST', default='redis')
+CACHE_REDIS_HOST = env.str('CACHE_REDIS_HOST', default='127.0.0.1')
 CACHE_REDIS_PORT = env.str('CACHE_REDIS_PORT', default='6379')
 CACHE_REDIS_PASSWORD = env.str('CACHE_REDIS_PASSWORD', default='')
 CACHE_KEY_PREFIX = 'CMDB::'
