@@ -23,6 +23,7 @@ deps: ## install dependencies using pip
 	cd cmdb-api && \
 	pipenv install --dev && \
 	pipenv run flask db-setup && \
+	pipenv run flask common-check-new-columns && \
 	pipenv run flask cmdb-init-cache && \
 	cd .. && \
     cd cmdb-ui && yarn install && cd ..
