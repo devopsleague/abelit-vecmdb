@@ -1,7 +1,8 @@
 0. 配置环境
 ```bash
-python3 -m venv ~/Documents/code/cmdbvenv
+# python3 -m venv ~/Documents/code/cmdbvenv
 source ~/Documents/code/cmdbvenv/bin/activate
+nvm use 14
 ```
 
 1. 动 mysql 服务, redis 服务,此处以 docker 为例
